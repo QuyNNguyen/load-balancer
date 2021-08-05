@@ -1,0 +1,6 @@
+act4ste1.py and act4ste2.py lib requirements 
+
+sys - for system call
+threadings - to create multiple threads
+requests - to make http request
+ipaddress - to not have to deal with ip address

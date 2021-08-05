@@ -1,0 +1,15 @@
+version: '3'
+services:
+  proxy:
+    build: ./proxy
+    ports:
+      - 9000:80
+
+  load_balancer:
+    build: ./loadBalancer
+
+  webapp1:
+    build: ./webServer1
+
+  webapp2:
+    build: ./webServer2
